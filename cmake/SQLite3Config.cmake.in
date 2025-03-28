@@ -1,0 +1,3 @@
+@PACKAGE_INIT@
+message(STATUS "Loading SQLite3 targets from: ${CMAKE_CURRENT_LIST_DIR}/SQLite3Targets.cmake")
+include("${CMAKE_CURRENT_LIST_DIR}/SQLite3Targets.cmake")
